@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/3892dc4ec4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="sticky top-0 left-0 z-10 bg-white px-6 md:px-16 lg:px-32 py-10 mx-auto"
+    >
+      <nav class="flex justify-between items-center gap-6">
+        <a href="/" class="text-4xl font-bold text-slate-500 cursor-pointer">
+          Blog</a
+        >
+
+        <div class="hidden lg:flex items-center gap-8">
+          <nav>
+            <ul class="flex flex-row justify-center items-center gap-5">
+              <li class="">
+                <a
+                  href="/"
+                  class="text-slate-400 px-2 pb-1 hover:text-blue-500 font-semibold text-lg hover:border-b-[3px] hover:border-solid hover:border-blue-500 transition delay-100 ease-in-out"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="details.html"
+                  class="text-slate-400 px-2 pb-1 hover:text-blue-500 font-semibold text-lg hover:border-b-[3px] hover:border-solid hover:border-blue-500 transition delay-100 ease-in-out"
+                  >Course</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <div class="relative">
+              <input
+                type="text"
+                name=""
+                id="search"
+                class="outline-0 py-3 pl-12 text-lg text-slate-400 w-80 rounded-2xl drop-shadow-2xl bg-white shadow-slate-200"
+              />
+              <label for="search">
+                <i
+                  class="fa-solid fa-magnifying-glass absolute top-5 left-0 px-4 text-slate-500"
+                ></i>
+              </label>
+            </div>
+          </div>
+          <div>
+            <button
+              class="text-white bg-sky-400 hover:bg-sky-500 drop-shadow-2xl rounded-3xl px-9 py-4 delay-100 transition-colors ease-in-out font-semibold"
+            >
+              Contact us
+            </button>
+          </div>
+        </div>
+        <button
+          class="px-2 py-1 border border-solid rounded-lg lg:hidden"
+          id="mobile-menu-btn"
+        >
+          <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+      </nav>
+      <div class="hidden flex-col gap-8 mt-8" id="mobile-menu">
+        <nav>
+          <ul class="flex flex-col gap-5">
+            <li class="">
+              <a
+                href="/"
+                class="text-slate-400 px-2 pb-1 hover:text-blue-500 font-semibold text-lg hover:border-b-[3px] hover:border-solid hover:border-blue-500 transition delay-100 ease-in-out"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="details.html"
+                class="text-slate-400 px-2 pb-1 hover:text-blue-500 font-semibold text-lg hover:border-b-[3px] hover:border-solid hover:border-blue-500 transition delay-100 ease-in-out"
+                >Course</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <div class="relative">
+            <input
+              type="text"
+              name=""
+              id="search"
+              class="outline-0 py-3 pl-12 text-lg text-slate-400 w-80 rounded-2xl drop-shadow-2xl bg-white shadow-slate-200"
+            />
+            <label for="search">
+              <i
+                class="fa-solid fa-magnifying-glass absolute top-5 left-0 px-4 text-slate-500"
+              ></i>
+            </label>
+          </div>
+        </div>
+        <div>
+          <button
+            class="text-white bg-sky-400 hover:bg-sky-500 drop-shadow-2xl rounded-3xl px-9 py-4 delay-100 transition-colors ease-in-out font-semibold"
+          >
+            Contact us
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="px-6 md:px-16 lg:px-32 py-10 flex flex-col lg:flex-row gap-20">
+      <div class="w-full lg:w-[70%] lg:pr-6">
+        <div class="flex items-end gap-3 mb-8">
+          <img
+            src="assets/testimonial-1 (5).jpg"
+            alt=""
+            class="h-10 w-10 rounded-full"
+          />
+          <div>
+            <h1 class="text-xs font-semibold text-slate-600 leading-3">
+              Lorem Night
+            </h1>
+            <p class="text-slate-500 text-sm mt-1">
+              <small
+                ><span>Apr 21</span> <span class="mx-1"> &#x2022;</span>
+                <span>23 min read</span></small
+              >
+            </p>
+          </div>
+        </div>
+        <h1
+          class="text-3xl font-bold text-slate-800 leading-tight w-full lg:w-10/12 mb-8"
+        >
+          Lorem ipsum dolor sit amet, consectetur adilit. Sed, enim molestiae?
+          Ex odit blanditiis.
+        </h1>
+        <img src="assets/card-img.jpg" alt="" class="w-full h-[500px]" />
+        <p class="text-center mt-1 text-sm text-slate-500 mb-6">
+          <small
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Explicabo, optio?</small
+          >
+        </p>
+
+        <p class="text-slate-700 text-sm font-medium">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+          ducimus eligendi nisi aut, vitae laudantium. Corporis sapiente
+          expedita consequatur, libero totam molestiae tempore consequuntur
+          ipsum dolore praesentium dolor nemo minus.
+        </p>
+        <!-- <div
+              class="absolute inset-0 hover:bg-black hover:bg-opacity-30 transition ease-in-out delay-100"
+            ></div> -->
+      </div>
+
+      <div
+        class="w-full h-fit border-l border-solid lg:w-[30%] pl-8 pr-4 pt-7 pb-3"
+      >
+        <div class="flex flex-col gap-4">
+          <div class="mb-4">
+            <img
+              src="assets/testimonial-1 (5).jpg"
+              alt=""
+              class="h-14 w-14 rounded-full mb-2"
+            />
+            <h1 class="text-xs font-bold text-slate-600 mb-1">Lorem Night</h1>
+            <p class="text-xs text-slate-500 font-semibold mb-3">
+              7.8K Followers
+            </p>
+
+            <p class="text-sm text-slate-400 font-semibold w-[14rem] leading-3">
+              <small
+                >Daily News, 1976-2023, last beat: lead covid reporter. 2020
+                chancellor Award, 2022 Nyt team pulitzer</small
+              >
+            </p>
+            <p
+              class="text-sm text-slate-400 font-semibold w-[14rem] leading-3 mt-1 underline"
+            >
+              <small>loremnight@gmail.com</small>
+            </p>
+          </div>
+          <h1 class="text-sm font-bold mb-2">More from Medium</h1>
+          <div class="flex mb-2">
+            <div class="pr-2">
+              <div class="flex items-end gap-2">
+                <img
+                  src="assets/testimonial-1 (5).jpg"
+                  alt=""
+                  class="h-5 w-5 rounded-full hidden lg:block"
+                />
+                <p class="text-slate-500 text-xs">
+                  <span class="font-semibold">Lorem Night</span>
+
+                  <sup>in</sup>
+
+                  <span class="font-semibold">The Nunance</span>
+                </p>
+              </div>
+              <button
+                class="font-bold text-sm text-start text-slate-700 mt-2 pr-5"
+              >
+                Simon Lizotte Take A Big Advance In The Tournament
+              </button>
+            </div>
+            <div>
+              <img
+                src="assets/card-img.jpg"
+                alt=""
+                class="w-[4rem] h-12 hidden lg:block"
+              />
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="flex mb-2">
+            <div class="pr-2">
+              <div class="flex items-end gap-2">
+                <img
+                  src="assets/testimonial-1 (5).jpg"
+                  alt=""
+                  class="h-5 w-5 rounded-full hidden lg:block"
+                />
+                <p class="text-slate-500 text-xs">
+                  <span class="font-semibold">Lorem Night</span>
+
+                  <sup>in</sup>
+
+                  <span class="font-semibold">The Nunance</span>
+                </p>
+              </div>
+              <button
+                class="font-bold text-sm text-start text-slate-700 mt-2 pr-5"
+              >
+                Simon Lizotte Take A Big Advance In The Tournament
+              </button>
+            </div>
+            <div>
+              <img
+                src="assets/card-img.jpg"
+                alt=""
+                class="w-[4rem] h-12 hidden lg:block"
+              />
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="flex mb-2">
+            <div class="pr-2">
+              <div class="flex items-end gap-2">
+                <img
+                  src="assets/testimonial-1 (5).jpg"
+                  alt=""
+                  class="h-5 w-5 rounded-full hidden lg:block"
+                />
+                <p class="text-slate-500 text-xs">
+                  <span class="font-semibold">Lorem Night</span>
+
+                  <sup>in</sup>
+
+                  <span class="font-semibold">The Nunance</span>
+                </p>
+              </div>
+              <button
+                class="font-bold text-sm text-start text-slate-700 mt-2 pr-5"
+              >
+                Simon Lizotte Take A Big Advance In The Tournament
+              </button>
+            </div>
+            <div>
+              <img
+                src="assets/card-img.jpg"
+                alt=""
+                class="w-[4rem] h-12 hidden lg:block"
+              />
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </main>
+    <script src="/script/index.js"></script>
+  </body>
+</html>
